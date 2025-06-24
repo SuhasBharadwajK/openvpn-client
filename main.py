@@ -10,6 +10,11 @@ https://pygobject.gnome.org/getting_started.html
 https://stackoverflow.com/questions/38869427/openvpn-on-linux-passing-username-and-password-in-command-line
 '''
 
+'''
+TODO
+Find a way to add a tray icon as long as this is running.
+'''
+
 gi.require_version("Gtk", "3.0")
 gi.require_version("Vte", "2.91")
 from gi.repository import Gtk, Vte, GLib
@@ -105,6 +110,7 @@ class MyApp(Gtk.Window):
 
     def on_submit(self, widget):
         '''
+        TODO
         1. Find out a way to check if the connection is successful.
         2. If it is, hide the Connect button and show the Disconnect button.
         '''
